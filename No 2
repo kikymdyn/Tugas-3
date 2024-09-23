@@ -1,22 +1,18 @@
-def print_pattern(n):
-    for i in range(n):
-        print(" " * (i * 2) + "* " * (n - i))
-
 n = 8
-print_pattern(n)
+for i in range(n, 00, -1):
+    print(" " * (n - i), end="")
+    for j in range(i):
+        print("*", end="")
+    print()
 
 
-
-
-
-
-PS C:\Users\LENOVO> & C:/Users/LENOVO/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/LENOVO/Pictures/Media Madian/Madian/segitigabintang.py"
-* * * * * * * * 
-  * * * * * * *
-    * * * * * *
-      * * * * *
-        * * * *
-          * * *
-            * *
-              *
-PS C:\Users\LENOVO>
+PS C:\Users\LENOVO> & C:/Users/LENOVO/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/LENOVO/Pictures/Media Madian/Madian/for_loop.py"
+********
+ *******
+  ******
+   *****
+    ****
+     ***
+      **
+       *
+PS C:\Users\LENOVO> 
